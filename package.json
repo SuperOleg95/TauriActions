@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@tauri-apps/plugin-dialog": "^2.0.1",
+    "@tauri-apps/plugin-updater": "^2.0.0",
     "nuxt": "^3.14.1592",
     "vue": "latest",
     "vue-router": "latest"
