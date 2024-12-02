@@ -6,9 +6,9 @@ import { ask, message } from '@tauri-apps/plugin-dialog';
 async function checkForAppUpdates(onUserClick: boolean) {
   const update = await check();
   if (update === null) {
-			await message('Failed to check for updates.\nPlease try again later.', { 
-				title: 'Error',
-				kind: 'error',
+			await message('You already use latest version.\nBetter luck next time.', { 
+				title: 'Update unavailable',
+				kind: 'warning',
 				okLabel: 'OK'
 			});
 			return;
