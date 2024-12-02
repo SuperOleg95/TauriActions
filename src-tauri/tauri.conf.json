@@ -1,7 +1,7 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
   "productName": "nuxt-app",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "identifier": "com.nuxt.dev",
   "build": {
     "frontendDist": "../.output/public",
